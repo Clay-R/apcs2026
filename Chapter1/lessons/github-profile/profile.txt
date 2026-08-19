@@ -1,6 +1,6 @@
-Name:
-Grade:
-Favorite Programming Language:
-Favorite Thing About Computer Science:
-Something I Am Good At:
-Something I Want To Learn:
+Name: Clay Riddell
+Grade: Junior
+Favorite Programming Language: Python
+Favorite Thing About Computer Science: Partner Programs
+Something I Am Good At: Lifeguarding
+Something I Want To Learn: How to code with Java
