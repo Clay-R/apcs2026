@@ -33,7 +33,13 @@ public class WeeklyBudget
         System.out.print("Enter the number of school lunches you ordered this week: ");
         lunchesPerWeek = scan.nextInt();
         
+        // Perform calculations (Arithmetic expressions)
+        totalCost = lunchPrice * lunchesPerWeek;
+        remaining = allowance - totalCost;
         
+        System.out.println(allowance);
+        System.out.println(totalCost);
+        System.out.println(remaining);
         
         
         
