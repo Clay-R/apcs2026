@@ -15,8 +15,8 @@ public class PrizeGenerator
         Scanner scan = new Scanner (System.in);
         NumberFormat money = NumberFormat.getCurrencyInstance();
         
-        System.out.println("Welcome to the APCSA Prize Simulator");
-        System.out.println("------------------------------------");
+        System.out.println("Welcome to the APCSA Prize Simulator");                                                                 
+        System.out.println("-------------------------------------------------");
         System.out.print("Name: ");
         String name = scan.nextLine();
         
@@ -29,5 +29,19 @@ public class PrizeGenerator
         
         //generate a random fee between $1 and $5
         int fee = 1 + (int)(Math.random() * 5) + 1;
+        
+        double finalBalance = startBalance + prizeAmount - fee;
+        System.out.println("\n Congratulations " + name + "! Here is your statement!");
+        System.out.println("=================================================");
+        
+        
+        System.out.printf("%-25s %s%n", "Starting Balance", money.format(startBalance));
+        System.out.printf("%-25s %s%n", "Prize Money", money.format(prizeAmount));
+        System.out.printf("%-25s %s%n", "Processing Fee", money.format(fee));
+        System.out.println("-------------------------------------------------");
+        System.out.printf("%-25s %s%n", "Final Balance", money.format(finalBalance));
+        System.out.println("=================================================");
+        
+        
     }
 }
