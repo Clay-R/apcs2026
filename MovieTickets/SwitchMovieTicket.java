@@ -85,9 +85,7 @@ public class SwitchMovieTicket
         System.out.println("Total Due: " + money.format(ticketPrice));
     }    
         
-}
-        
-        
+}        
         
         
 
