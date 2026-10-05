@@ -4,9 +4,9 @@ Tell the reader (someone who does not know anything about this project)
 all they need to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
+PROJECT TITLE: Text Inspector
+PURPOSE OF PROJECT: Use for loops with string functions.
+VERSION or DATE: 10/5/2026
+HOW TO START THIS PROJECT: 
+AUTHORS: Clay Riddell
 USER INSTRUCTIONS:
